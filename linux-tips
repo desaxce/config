@@ -1,0 +1,9 @@
+To mount an NTFS disk on Linux:
+sudo fdisk -l	// to see where is your device (usually /dev/sdb1)
+sudo mkdir /media/external	// path where your disk root will be mapped to
+sudo mount -t mtfs-3g /dev/sdb1 /media/external
+
+To open the default file manager from the command line:
+xdg-open .
+To open files from the terminal as if you'd double clicked them in the file manager:
+xdg-open file

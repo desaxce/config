@@ -7,3 +7,5 @@ To open the default file manager from the command line:
 xdg-open .
 To open files from the terminal as if you'd double clicked them in the file manager:
 xdg-open file
+
+Starting with kernel 5.18, need to add kernel option ibt=off to /etc/default/grub and update grub in order to use the non free nvidia drivers (T1200).

@@ -1,0 +1,21 @@
+Manjaro list of things to do for proper setup on PineBook Pro:
+
+Connect to WiFi
+Configure touchpad click on tap
+Add shortcut pine xfce4-popup-whiskermenu
+sudo pacman-mirrors --fasttrack 20 && sudo pacman -Syyu
+pamac install vim neovim tmux bat
+Deactivate upgrades from Software manager preferences
+Add .vimrc from github.com/desaxce/config and set modelines=0
+Use .bashrc https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c
+Windows Manager - tile window top/bottom/left right shortcuts (Alt-F11 full screen)
+pamac remove matray and remove from Session & startup config
+Configure Firefox - search engine, privacy settings - Guide Manjaro bookmark
+Pine+E shortcut to run thunar Downloads
+pamac install libreoffice transmission-gtk chromium
+pamac install tlp (to have "bluetooth toggle", shortcut to configure - pine+b)
+Install copyq with alt+v shortcut (inside the copyq preferences)
+Add Chromium to panel and Libreoffice Writer
+Change locale (locale.gen add french + /etc/locale.conf)
+Keyboard settings: add french layout, don't use system default and config alt+shift as switch shortcut (add flag on panel taskbar - to see keyboard layout)
+
